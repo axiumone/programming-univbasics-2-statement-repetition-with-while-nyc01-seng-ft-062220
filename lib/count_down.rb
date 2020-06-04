@@ -1,7 +1,10 @@
-# Write your code here
 
-count = 10
+i = 11
+stop = 1
 
-while i >= count && i != 0
-  puts count -= 1
+while i <= 11 && i != stop
+  puts i -= 1
+  if i <= 1
+    puts "Happy New Year!"
+  end
 end
